@@ -17,7 +17,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro", name: "description", widget: "text"}
       - {label: "Author", name: "author", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "object" , fields{[]} }
   - name: "User" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "user" # Used in the UI, ie.: "New Post"
     folder: "site/content/user" # The path to the folder where the documents are stored
